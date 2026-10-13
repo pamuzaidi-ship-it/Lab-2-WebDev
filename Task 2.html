@@ -16,10 +16,30 @@
             <input type="number" id="age" name="age" placeholder="18" size="3"><br><br>
 
             Gender:<br><br>
-            <select id="gender" name="gender">
-                <option value="Male">Male</option><br>
-                <option value="Female">Female</option>
+            <input type="radio" id="male" name="gender" value="Male">Male <br>
+            <input type="radio" id="female" name="gender" value="Female">Female <br>
+
+            Country of Residence:<br>
+            <select id="country" name="country">
+                <option value="USA">USA</option>
+                <option value="Malaysia" selected>Malaysia</option>
+                <option value="Singapore">Singapore</option>
             </select><br><br>
+
+            Area of Interest:<br><br>
+            <input type="checkbox" id="Software Development" name="interest" value="Software Development">Software Development<br>
+            <input type="checkbox" id="Data Science" name="interest" value="Data Science">Data Science<br>
+            <input type="checkbox" id="Cybersecurity" name="interest" value="Cybersecurity">Cybersecurity<br>
+            <input type="checkbox" id="Artificial Intelligence" name="interest" value="Artificial Intelligence">Artificial Intelligence<br>
+            <br><br>
+            
+            Experience Level:<br>
+            <input type="checkbox" id="beginner" name="experience" value="Beginner">Beginner<br>
+            <input type="checkbox" id="intermediate" name="experience" value="Intermediate">Intermediate<br>
+            <input type="checkbox" id="advanced" name="experience" value="Advanced">Advanced<br><br>
+            
+            Comments or Questions:<br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Any comments or questions?"></textarea><br><br>
         </form>
     </body>
 </html>
